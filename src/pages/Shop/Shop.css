@@ -1,0 +1,30 @@
+.shop_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7vw;
+  max-width: 70%;
+  margin-inline: auto;
+}
+
+.shop_grid div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.img_wrapper {
+  background-color: white;
+  padding-block: 30px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.shop_grid img {
+  object-fit: contain;
+  height: 300px;
+}
+
+.shop_grid div a {
+  text-decoration: none;
+}
